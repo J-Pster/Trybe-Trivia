@@ -1,0 +1,38 @@
+.answers-list {
+  display: flex;
+  margin-top: 20px;
+}
+
+.answers-list button {
+  background-color: var(--color-background);
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  box-shadow: 0 0 5px var(--border-color);
+  color: var(--color-text-white);
+  cursor: pointer;
+  display: flex;
+  flex-basis: 50px;
+  flex-flow: row wrap;
+  flex-grow: 1;
+  justify-content: center;
+  margin: 5px;
+  padding: 10px;
+}
+
+.timer {
+  animation: changecolor 1s infinite;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+@keyframes changecolor {
+
+  from {
+    color: red;
+  }
+
+  to {
+    color: grey;
+  }
+
+}

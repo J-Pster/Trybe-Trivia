@@ -1,0 +1,62 @@
+.Trivia-logo {
+  height: 8vmin;
+  pointer-events: none;
+}
+
+.container-user-info {
+  align-items: center;
+  background-color: var(--color-background);
+  border-bottom: 1px solid #ccc;
+  color: var(--color-text-white);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+
+.usuario {
+  align-items: flex-start;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  box-shadow: 0 0 5px var(--border-color);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  line-height: 25px;
+  margin-right: 50px;
+  padding: 10px;
+}
+
+.pontuacao {
+  align-items: flex-end;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  box-shadow: 0 0 5px var(--border-color);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  line-height: 25px;
+  margin-left: 50px;
+  padding: 10px;
+}
+
+.jogador {
+  align-items: center;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  box-shadow: 0 0 5px var(--border-color);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  line-height: 25px;
+  margin-right: 50px;
+  padding: 10px;
+}
+
+.usuario p, .usuario h6 {
+  margin: 0;
+}
+
+.avatar {
+  border-radius: 50%;
+}

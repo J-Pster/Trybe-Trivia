@@ -1,0 +1,38 @@
+.ranking-page {
+  background-color: var(--border-color);
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.ranking-container {
+  align-items: center;
+  background-color: var(--border-color);
+  border-bottom: 12px solid #ccc;
+  display: flex;
+  flex-basis: 0;
+  flex-flow: column;
+  flex-grow: 1;
+  justify-content: center;
+  padding: 20px 30px;
+}
+
+.ranking-item {
+  box-shadow: 0 30px 45px -45px rgba(0, 0, 0, 0.5);
+  margin: 10px;
+  padding-bottom: 25px;
+  width: 300px;
+}
+
+.ranking-page input {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 50px 0;
+  padding: 5px;
+  width: 300px;
+}
+
+.ranking-page input:hover {
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.3);
+}

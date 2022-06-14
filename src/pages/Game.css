@@ -1,0 +1,18 @@
+.game-page {
+  background-color: var(--border-color);
+  display: flex;
+  flex-flow: column wrap;
+  height: 100vh;
+  justify-content: flex-start;
+}
+
+.game-container {
+  background-color: var(--border-color);
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  flex-basis: 0;
+  flex-flow: column wrap;
+  flex-grow: 1;
+  justify-content: flex-start;
+  padding: 20px 30px;
+}
