@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, HashRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import Store from './store/index';
 import App from './App';
@@ -9,9 +9,11 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render(
   <BrowserRouter>
-    <Provider store={ Store }>
-      <App />
-    </Provider>
+    <HashRouter basename="/">
+      <Provider store={ Store }>
+        <App />
+      </Provider>
+    </HashRouter>
   </BrowserRouter>,
 
   document.getElementById('root'),

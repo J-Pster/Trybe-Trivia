@@ -1,7 +1,7 @@
 {
   "name": "trivia-react-redux",
-  "version": "0.1.0",
-  "homepage": "./",
+  "version": "0.2.0",
+  "homepage": "https://j-pster.github.io/Trivia-React-Redux/",
   "private": true,
   "engines": {
     "node": "16"
